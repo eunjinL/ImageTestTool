@@ -1,0 +1,2 @@
+C:\Users\ejlee\source\repos\ImageTestTool2_EJ\RootTools_CLR\x64\Debug\RootTools_CLR.vcxproj.AssemblyReference.cache
+C:\Users\ejlee\source\repos\ImageTestTool_EJ\RootTools_CLR\x64\Debug\RootTools_CLR.vcxproj.AssemblyReference.cache

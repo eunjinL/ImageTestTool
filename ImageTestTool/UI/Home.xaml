@@ -1,0 +1,80 @@
+﻿<Window x:Class="ImageTestTool.Home"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ImageTestTool"
+        mc:Ignorable="d"
+        Title="Home" Height="700" Width="1500">
+    <Window.Resources>
+        <local:Home_ViewModel x:Key="Home_ViewModel"/>
+    </Window.Resources>
+    <Grid Margin="20,10,20,20" DataContext="{StaticResource Home_ViewModel}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="10*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid  Grid.Row="0" Grid.Column="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <!--Image load btn, Image 처리 Run btn-->
+            <Button Grid.Column="1" Margin="40,5,0,5"
+                Content="Open"
+                Background="AliceBlue"
+                Command="{Binding btnImageOpenCommand}"/>
+            <Button Grid.Column="2" Margin="20,5,20,5"
+                Content="Run"
+                Background="Beige"
+                Command="{Binding btnRunCommand}"/>
+        </Grid>
+
+        <!-- Left Image Viewer -->
+        <Border Grid.Row="1" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+            <Image Source="{Binding ImageSource}" Stretch="Uniform"/>
+        </Border>
+
+        <!-- Middle Panel -->
+        <Grid Grid.Row="1" Grid.Column="1" VerticalAlignment="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/> 
+            </Grid.RowDefinitions>
+
+            <!-- Image Processing Section -->
+            <Border Grid.Row="0" BorderBrush="Black" BorderThickness="1" Margin="20,0,20,0">
+                <StackPanel>
+                    <TextBlock Text="Image Process" FontWeight="Bold" Margin="5"/>
+                    <ComboBox SelectedValue="{Binding p_SelectedImageProcess}"
+                              IsEnabled="{Binding p_bEnable}"
+                              ItemsSource="{Binding p_ImageProcessList}" Foreground="Black"/>
+                </StackPanel>
+            </Border>
+
+            <!-- Process Technique Section -->
+            <Border Grid.Row="2" BorderBrush="Black" BorderThickness="1" Margin="20,65,20,0">
+                <StackPanel>
+                    <TextBlock Text="Process Tech" FontWeight="Bold" Margin="5"/>
+                    <ComboBox SelectedValue="{Binding p_SelectedProcessTech}"
+                              IsEnabled="{Binding p_bEnable}"
+                              ItemsSource="{Binding p_ProcessTechList}" Foreground="Black"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+
+        <!-- Right Image Viewer -->
+        <Border Grid.Row="1" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+            <!-- Right Image Viewer Control -->
+            <Image Source="{Binding RightImage}" Stretch="Uniform" />
+        </Border>
+    </Grid>
+</Window>

@@ -1,0 +1,11 @@
+﻿  pch.cpp
+  AssemblyInfo.cpp
+  CLR_IP.cpp
+  MySQLDBConnector.cpp
+  코드를 생성하고 있습니다...
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  AssemblyInfo.obj : MSIL 모듈이 발견되었습니다. MSIL에 증분 링크를 사용할 수 없습니다. 전체 링크를 수행하고 있습니다.
+  IPP_Processor.obj : /GL로 컴파일한 MSIL .netmodule 또는 모듈이 있습니다. /LTCG를 지정하여 링크를 다시 시작하십시오. /LTCG를 링크 명령줄에 추가하면 링커 성능이 향상됩니다.
+  코드를 생성하고 있습니다.
+  코드를 생성했습니다.
+  RootTools_CLR.vcxproj -> C:\Users\ejlee\source\repos\ImageTestTool_0307\x64\Release\RootTools_CLR.dll

@@ -1,0 +1,114 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly RootTools_CLR, Version=1.0.*, Culture=고정 언어(고정 국가): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Cpp_LabelParam: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Single centerX : Public
+    Single centerY : Public
+    Int32 boundTop : Public
+    Int32 boundBottom : Public
+    Int32 boundLeft : Public
+    Int32 boundRight : Public
+    Single width : Public
+    Single height : Public
+    Single area : Public
+    Single value : Public
+    Single valueMin : Public
+    Single valueMax : Public
+    Void* extraData : Public
+Class Cpp_Point: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 x : Public
+    Int32 y : Public
+Class Cpp_Rect: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 x : Public
+    Int32 y : Public
+    Int32 h : Public
+    Int32 w : Public
+Class Cpp_ImageProcessParam: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Byte[] pSrc : Public
+    Byte[] pDst : Public
+    Int32 nSrcW : Public
+    Int32 nSrcH : Public
+    System.String processMode : Public
+Class Cpp_TemplateParam: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Cpp_ImageProcessParam
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 outPosX : Public
+    Int32 outPosY : Public
+    Int32 nTempW : Public
+    Int32 nTempH : Public
+    Int32 nROIL : Public
+    Int32 nROIT : Public
+    Int32 nROIR : Public
+    Int32 nROIB : Public
+    Int32 method : Public
+    Int32 nByteCnt : Public
+    Int32 nChIdx : Public
+    Int32 nFilterMethod : Public
+    Int32 nStartX : Public
+    Int32 nStartY : Public
+    Int32 nStride : Public
+    Int32 nSamplingRatio : Public
+    Int32 nHistScale : Public
+Class Cpp_ThresholdParam: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Cpp_ImageProcessParam
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean bDark : Public
+    Int32 nThresh : Public
+Class Cpp_LabelingParam: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Cpp_ImageProcessParam
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean bDark : Public
+Class Cpp_GaussianParam: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Cpp_ImageProcessParam
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 nSig : Public
+Class Cpp_MedianParam: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Cpp_ImageProcessParam
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 nFiltSz : Public
+Class Cpp_MorphologyParam: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Cpp_ImageProcessParam
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 nFiltSz : Public
+    System.String strMethod : Public
+    Int32 nIter : Public
+Class RootTools_CLR.CLR_IP: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Cpp_Threshold(Cpp_ThresholdParam): PrivateScope, Public, Static, HideBySig
+    Cpp_TemplateMatching(Cpp_TemplateParam): PrivateScope, Public, Static, HideBySig
+    Cpp_Labeling(Cpp_LabelingParam): PrivateScope, Public, Static, HideBySig
+    Cpp_GaussianBlur(Cpp_GaussianParam): PrivateScope, Public, Static, HideBySig
+    Cpp_AverageBlur(Cpp_ImageProcessParam): PrivateScope, Public, Static, HideBySig
+    Cpp_MedianBlur(Cpp_MedianParam): PrivateScope, Public, Static, HideBySig
+    Cpp_Morphology(Cpp_MorphologyParam): PrivateScope, Public, Static, HideBySig
+Class RootTools_CLR.MySQLDBConnector: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    OpenDatabase(): PrivateScope, Public, HideBySig
+    RunQuery(String): PrivateScope, Public, HideBySig

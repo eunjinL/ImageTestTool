@@ -1,0 +1,73 @@
+﻿  pch.cpp
+  IPP_Processor.cpp
+  Loop_Processor.cpp
+C:\Users\ejlee\source\repos\ImageTestTool_EJ\RootTools_Cpp\Loop_Processor.cpp(377,18): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\ejlee\source\repos\ImageTestTool_EJ\RootTools_Cpp\Loop_Processor.cpp(379,18): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\ejlee\source\repos\ImageTestTool_EJ\RootTools_Cpp\Loop_Processor.cpp(381,19): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+  OpenCV_Processor.cpp
+  SIMD_Processor.cpp
+C:\Users\ejlee\source\repos\ImageTestTool_EJ\RootTools_Cpp\SIMD_Processor.cpp(24,45): warning C4309: '인수': 상수 값이 잘립니다.
+SIMD_Processor.obj : warning LNK4006: "public: unsigned __int64 & __cdecl cv::MatStep::operator[](int)" (??AMatStep@cv@@QEAAAEA_KH@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+SIMD_Processor.obj : warning LNK4006: "public: __cdecl cv::MatStep::MatStep(void)" (??0MatStep@cv@@QEAA@XZ)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+SIMD_Processor.obj : warning LNK4006: "public: int const & __cdecl cv::MatSize::operator[](int)const " (??AMatSize@cv@@QEBAAEBHH@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+SIMD_Processor.obj : warning LNK4006: "public: __cdecl cv::MatSize::MatSize(int *)" (??0MatSize@cv@@QEAA@PEAH@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+SIMD_Processor.obj : warning LNK4006: "public: unsigned __int64 __cdecl cv::Mat::total(void)const " (?total@Mat@cv@@QEBA_KXZ)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+SIMD_Processor.obj : warning LNK4006: "public: void __cdecl cv::Mat::release(void)" (?release@Mat@cv@@QEAAXXZ)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+SIMD_Processor.obj : warning LNK4006: "public: __cdecl cv::Mat::~Mat(void)" (??1Mat@cv@@QEAA@XZ)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+SIMD_Processor.obj : warning LNK4006: "public: __cdecl cv::Mat::Mat(int,int,int,void *,unsigned __int64)" (??0Mat@cv@@QEAA@HHHPEAX_K@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+SIMD_Processor.obj : warning LNK4006: "public: char const * __cdecl cv::String::c_str(void)const " (?c_str@String@cv@@QEBAPEBDXZ)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+SIMD_Processor.obj : warning LNK4006: "public: class cv::String & __cdecl cv::String::operator=(class cv::String const &)" (??4String@cv@@QEAAAEAV01@AEBV01@@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+SIMD_Processor.obj : warning LNK4006: "public: __cdecl cv::String::~String(void)" (??1String@cv@@QEAA@XZ)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+SIMD_Processor.obj : warning LNK4006: "public: __cdecl cv::String::String(char const *)" (??0String@cv@@QEAA@PEBD@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+SIMD_Processor.obj : warning LNK4006: "public: __cdecl cv::String::String(class cv::String const &)" (??0String@cv@@QEAA@AEBV01@@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+OpenCV_Processor.obj : warning LNK4006: "public: __cdecl cv::_InputOutputArray::~_InputOutputArray(void)" (??1_InputOutputArray@cv@@QEAA@XZ)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+OpenCV_Processor.obj : warning LNK4006: "public: __cdecl cv::String::String(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0String@cv@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+OpenCV_Processor.obj : warning LNK4006: "public: unsigned __int64 & __cdecl cv::MatStep::operator[](int)" (??AMatStep@cv@@QEAAAEA_KH@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+OpenCV_Processor.obj : warning LNK4006: "public: unsigned __int64 const & __cdecl cv::MatStep::operator[](int)const " (??AMatStep@cv@@QEBAAEB_KH@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+OpenCV_Processor.obj : warning LNK4006: "public: __cdecl cv::MatStep::MatStep(unsigned __int64)" (??0MatStep@cv@@QEAA@_K@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+OpenCV_Processor.obj : warning LNK4006: "public: __cdecl cv::MatStep::MatStep(void)" (??0MatStep@cv@@QEAA@XZ)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+OpenCV_Processor.obj : warning LNK4006: "public: int const & __cdecl cv::MatSize::operator[](int)const " (??AMatSize@cv@@QEBAAEBHH@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+OpenCV_Processor.obj : warning LNK4006: "public: __cdecl cv::MatSize::MatSize(int *)" (??0MatSize@cv@@QEAA@PEAH@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+OpenCV_Processor.obj : warning LNK4006: "public: class cv::Mat & __cdecl cv::Mat::operator=(class cv::Mat &&)" (??4Mat@cv@@QEAAAEAV01@$$QEAV01@@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+OpenCV_Processor.obj : warning LNK4006: "public: unsigned __int64 __cdecl cv::Mat::total(void)const " (?total@Mat@cv@@QEBA_KXZ)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+OpenCV_Processor.obj : warning LNK4006: "public: int __cdecl cv::Mat::type(void)const " (?type@Mat@cv@@QEBAHXZ)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+OpenCV_Processor.obj : warning LNK4006: "public: class cv::Mat __cdecl cv::Mat::operator()(class cv::Rect_<int> const &)const " (??RMat@cv@@QEBA?AV01@AEBV?$Rect_@H@1@@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+OpenCV_Processor.obj : warning LNK4006: "public: void __cdecl cv::Mat::release(void)" (?release@Mat@cv@@QEAAXXZ)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+OpenCV_Processor.obj : warning LNK4006: "public: void __cdecl cv::Mat::create(int,int,int)" (?create@Mat@cv@@QEAAXHHH@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+OpenCV_Processor.obj : warning LNK4006: "public: __cdecl cv::Mat::~Mat(void)" (??1Mat@cv@@QEAA@XZ)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+OpenCV_Processor.obj : warning LNK4006: "public: __cdecl cv::Mat::Mat(int,int,int,void *,unsigned __int64)" (??0Mat@cv@@QEAA@HHHPEAX_K@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+OpenCV_Processor.obj : warning LNK4006: "public: __cdecl cv::Mat::Mat(class cv::Mat const &)" (??0Mat@cv@@QEAA@AEBV01@@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+OpenCV_Processor.obj : warning LNK4006: "public: __cdecl cv::Mat::Mat(int,int,int,class cv::Scalar_<double> const &)" (??0Mat@cv@@QEAA@HHHAEBV?$Scalar_@N@1@@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+OpenCV_Processor.obj : warning LNK4006: "public: __cdecl cv::Mat::Mat(void)" (??0Mat@cv@@QEAA@XZ)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+OpenCV_Processor.obj : warning LNK4006: "public: __cdecl cv::_InputOutputArray::_InputOutputArray(class cv::Mat &)" (??0_InputOutputArray@cv@@QEAA@AEAVMat@1@@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+OpenCV_Processor.obj : warning LNK4006: "public: __cdecl cv::_OutputArray::~_OutputArray(void)" (??1_OutputArray@cv@@QEAA@XZ)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+OpenCV_Processor.obj : warning LNK4006: "public: __cdecl cv::_OutputArray::_OutputArray(class cv::Mat &)" (??0_OutputArray@cv@@QEAA@AEAVMat@1@@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+OpenCV_Processor.obj : warning LNK4006: "public: __cdecl cv::_OutputArray::_OutputArray(void)" (??0_OutputArray@cv@@QEAA@XZ)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+OpenCV_Processor.obj : warning LNK4006: "public: __cdecl cv::_InputArray::~_InputArray(void)" (??1_InputArray@cv@@QEAA@XZ)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+OpenCV_Processor.obj : warning LNK4006: "public: __cdecl cv::_InputArray::_InputArray(class cv::Mat const &)" (??0_InputArray@cv@@QEAA@AEBVMat@1@@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+OpenCV_Processor.obj : warning LNK4006: "public: __cdecl cv::_InputArray::_InputArray(void)" (??0_InputArray@cv@@QEAA@XZ)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+OpenCV_Processor.obj : warning LNK4006: "protected: void __cdecl cv::_InputArray::init(int,void const *)" (?init@_InputArray@cv@@IEAAXHPEBX@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+OpenCV_Processor.obj : warning LNK4006: "public: int __cdecl cv::String::compare(class cv::String const &)const " (?compare@String@cv@@QEBAHAEBV12@@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+OpenCV_Processor.obj : warning LNK4006: "public: char const * __cdecl cv::String::c_str(void)const " (?c_str@String@cv@@QEBAPEBDXZ)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+OpenCV_Processor.obj : warning LNK4006: "public: class cv::String & __cdecl cv::String::operator=(class cv::String const &)" (??4String@cv@@QEAAAEAV01@AEBV01@@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+OpenCV_Processor.obj : warning LNK4006: "public: __cdecl cv::String::~String(void)" (??1String@cv@@QEAA@XZ)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+OpenCV_Processor.obj : warning LNK4006: "public: __cdecl cv::String::String(char const *)" (??0String@cv@@QEAA@PEBD@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+OpenCV_Processor.obj : warning LNK4006: "public: __cdecl cv::String::String(class cv::String const &)" (??0String@cv@@QEAA@AEBV01@@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+Loop_Processor.obj : warning LNK4006: "public: unsigned __int64 & __cdecl cv::MatStep::operator[](int)" (??AMatStep@cv@@QEAAAEA_KH@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+Loop_Processor.obj : warning LNK4006: "public: __cdecl cv::MatStep::MatStep(void)" (??0MatStep@cv@@QEAA@XZ)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+Loop_Processor.obj : warning LNK4006: "public: int const & __cdecl cv::MatSize::operator[](int)const " (??AMatSize@cv@@QEBAAEBHH@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+Loop_Processor.obj : warning LNK4006: "public: __cdecl cv::MatSize::MatSize(int *)" (??0MatSize@cv@@QEAA@PEAH@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+Loop_Processor.obj : warning LNK4006: "public: unsigned __int64 __cdecl cv::Mat::total(void)const " (?total@Mat@cv@@QEBA_KXZ)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+Loop_Processor.obj : warning LNK4006: "public: void __cdecl cv::Mat::release(void)" (?release@Mat@cv@@QEAAXXZ)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+Loop_Processor.obj : warning LNK4006: "public: __cdecl cv::Mat::~Mat(void)" (??1Mat@cv@@QEAA@XZ)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+Loop_Processor.obj : warning LNK4006: "public: __cdecl cv::Mat::Mat(int,int,int,void *,unsigned __int64)" (??0Mat@cv@@QEAA@HHHPEAX_K@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+Loop_Processor.obj : warning LNK4006: "public: char const * __cdecl cv::String::c_str(void)const " (?c_str@String@cv@@QEBAPEBDXZ)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+Loop_Processor.obj : warning LNK4006: "public: class cv::String & __cdecl cv::String::operator=(class cv::String const &)" (??4String@cv@@QEAAAEAV01@AEBV01@@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+Loop_Processor.obj : warning LNK4006: "public: __cdecl cv::String::~String(void)" (??1String@cv@@QEAA@XZ)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+Loop_Processor.obj : warning LNK4006: "public: __cdecl cv::String::String(char const *)" (??0String@cv@@QEAA@PEBD@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+Loop_Processor.obj : warning LNK4006: "public: __cdecl cv::String::String(class cv::String const &)" (??0String@cv@@QEAA@AEBV01@@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+IPP_Processor.obj : warning LNK4006: "public: char const * __cdecl cv::String::c_str(void)const " (?c_str@String@cv@@QEBAPEBDXZ)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+IPP_Processor.obj : warning LNK4006: "public: class cv::String & __cdecl cv::String::operator=(class cv::String const &)" (??4String@cv@@QEAAAEAV01@AEBV01@@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+IPP_Processor.obj : warning LNK4006: "public: __cdecl cv::String::~String(void)" (??1String@cv@@QEAA@XZ)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+IPP_Processor.obj : warning LNK4006: "public: __cdecl cv::String::String(class cv::String const &)" (??0String@cv@@QEAA@AEBV01@@Z)이(가) opencv_world347.lib(opencv_world347.dll)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+  RootTools_Cpp.vcxproj -> C:\Users\ejlee\source\repos\ImageTestTool_0307\x64\Release\RootTools_Cpp.lib
